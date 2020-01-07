@@ -1,0 +1,112 @@
+#content{
+    height: 900px;
+    margin: 0 auto;
+    width: 800px;
+}
+#level{
+    height: 25px;
+    width: 280px;
+    margin: 0 auto;
+}
+#level button{
+    height: 25px;
+    line-height: 25px;
+    width: 60px;
+    text-align: center;
+    background: rgb(73, 139, 141);;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+#level button.active{
+    background: #0bb9b6;
+}
+#level button.big{
+    width: 80px;
+}
+#gameBox{
+    padding-top: 20px;
+}
+#bottomText{
+    height: 20px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+/* .mineNum{
+    height: 20px;
+    width: 50px;
+    
+} */
+table{
+    border-spacing: 1px;
+    background-color: #929196;
+    margin: 0 auto;
+}
+td{
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    padding: 0;
+    border: 1px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+}
+.mine{
+    background:#c9c9c9 url(../images/mine.png) no-repeat center;
+    background-size: cover;
+}
+.flag{
+    background:#ccc url(../images/flag.png) no-repeat center;
+    background-size: cover;
+}
+td.zero{
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.one{
+    color: red;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.two{
+    color: green;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.three{
+    color: yellow;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.four{
+    color: blue;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.five{
+    color: blueviolet;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.six{
+    color: brown;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.seven{
+    color: cadetblue;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+td.eight{
+    color: coral;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
